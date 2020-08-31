@@ -145,3 +145,45 @@ footer#rodape {
 footer#rodape p {
 	text-align: center;
 }
+
+table#tabela {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+table#tabela td {
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+table#tabela td.ce {
+	background-color: #606060;
+	color: #ffffff;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+table#tabela td.cd {
+	color: black;
+	background-color: #cecece;
+}
+
+table#tabela caption {
+	color: #888888;
+	font-size: 13;
+	font-weight: bolder;
+}
+
+table#tabela caption span {
+	display:block;
+	float:right;
+	color: black;
+	font-size: 8pt;
+	margin-top: 10px;
+}
